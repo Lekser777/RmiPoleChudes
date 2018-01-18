@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.text.*?>
+<?import javafx.scene.control.*?>
+<?import java.lang.*?>
+<?import javafx.scene.layout.*?>
+
+
+<Pane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="491.0" prefWidth="307.0" xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" fx:controller="Controller">
+   <children>
+      <Button fx:id="btn_makemod" disable="true" layoutX="162.0" layoutY="246.0" mnemonicParsing="false" onAction="#Makemod" prefHeight="86.0" prefWidth="115.0" text="Крутить барабан" />
+      <Button fx:id="btn_try" disable="true" layoutX="27.0" layoutY="382.0" mnemonicParsing="false" onAction="#Makemod2" prefHeight="25.0" prefWidth="192.0" text="Угадать букву" />
+      <Button fx:id="btn_try_all" disable="true" layoutX="27.0" layoutY="426.0" mnemonicParsing="false" onAction="#Check2" text="Ввести слово" />
+      <Button fx:id="btn_start"  layoutX="18.0" layoutY="85.0" mnemonicParsing="false" onAction="#Start" text="Начать игру" />
+      <Label disable="true" layoutX="27.0" layoutY="19.0" text="Очки :" />
+      <Label disable="true" layoutX="27.0" layoutY="68.0" text="Осталось попыток :" />
+      <TextArea fx:id="tf_fail"  disable="true" layoutX="174.0" layoutY="64.0" prefHeight="25.0" prefWidth="107.0" />
+      <TextArea fx:id="tf_points_" disable="true" layoutX="81.0" layoutY="15.0" prefHeight="25.0" prefWidth="200.0" />
+      <TextArea fx:id="tf_help_" disable="true" layoutX="18.0" layoutY="115.0" prefHeight="58.0" prefWidth="260.0" />
+      <TextArea fx:id="tf_word_" disable="true" layoutX="18.0" layoutY="187.0" prefHeight="25.0" prefWidth="260.0" />
+      <TextArea fx:id="tf_mod" disable="true" layoutX="29.0" layoutY="246.0" prefHeight="86.0" prefWidth="115.0" />
+      <TextArea fx:id="tf_all" disable="true" layoutX="123.0" layoutY="426.0" prefHeight="25.0" prefWidth="158.0" />
+      <TextArea fx:id="tf_letter" disable="true" layoutX="237.0" layoutY="382.0" prefHeight="25.0" prefWidth="44.0" />
+   </children>
+</Pane>
